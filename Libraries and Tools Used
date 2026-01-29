@@ -1,0 +1,7 @@
+Libraries and Tools Used
+
+This project was developed using Python and a set of widely used libraries for data analysis and machine learning. The google.colab.files module was used to upload the compressed dataset into the Google Colab environment, while the zipfile and os libraries were employed to extract ZIP archives and navigate the file system.
+
+pandas was the main library for data loading, cleaning, and manipulation, with support from numpy for numerical computations. Data visualization was performed using matplotlib and seaborn to explore feature distributions and correlations.
+
+Machine learning tasks were implemented using the scikit-learn library. It was used for data preprocessing (LabelEncoder, StandardScaler), dataset splitting (train_test_split), model training (LogisticRegression, DecisionTreeClassifier, and KNeighborsClassifier), and performance evaluation (accuracy_score). Together, these libraries provided a complete framework for building and evaluating the classification models in this project.
